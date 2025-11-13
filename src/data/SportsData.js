@@ -63,8 +63,8 @@ export const sportsData = [
         "Voleybol basketbolga o‘xshash, ammo yumshoqroq jismoniy sport sifatida yaratilgan.",
       facts:
         "1964-yildan beri Olimpiya o‘yini sifatida o‘tkaziladi.",
-      description:
-        "Voleybol jamoaviy ruh va muvofiqlikni rivojlantiradi. O‘yinchilar to‘pni tarmoqqa urib, raqib himoyasini yorib o‘tishga harakat qilishadi.",
+      
+      description: "Voleybol — jamoaviy o‘yin bo‘lib, muvofiqlik, taktika va jismoniy faollikni birlashtiradi. O‘yinchilar to‘pni tarmoqqa urib, raqib maydoniga tushirish orqali ochko to‘plashadi. Bu sport 1895-yilda yaratilgan va 1964-yildan beri Olimpiya dasturiga kiritilgan. Voleybolning plyaj varianti ham juda mashhur bo‘lib, yozgi musobaqalarda o‘ziga xos tomosha yaratadi. O‘yin tezkor harakat, aniqlik va jamoaviy ruhni talab qiladi. Voleybol jamoaviy muloqotni kuchaytiradigan, ijobiy energiya beradigan sportdir."
     },
     {
       id: "handball",
