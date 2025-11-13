@@ -31,7 +31,7 @@ export default function SportDetail() {
           <h1 className="text-3xl font-bold">{sport.name}</h1>
           <p className="text-gray-500 mt-1">{sport.founded}</p>
 
-          <div className="grid md:grid-cols-2 gap-6 mt-6 text-gray-700">
+          <div className="grid md:grid-cols-2  gap-6 mt-6 text-gray-700">
             <div>
               <h3 className="font-semibold">Jamoa o'lchami</h3>
               <p className="mt-1">{sport.teamSize}</p>
@@ -43,6 +43,9 @@ export default function SportDetail() {
             <div>
               <h3 className="font-semibold">Asosiy qoidalar</h3>
               <p className="mt-1">{sport.rules}</p>
+
+              <h3 className="font-semibold mt-4">Qisqacha tasnif</h3>
+              <p className="mt-1">{sport.description} </p>
 
               <h3 className="font-semibold mt-4">Tarix</h3>
               <p className="mt-1">{sport.history}</p>
