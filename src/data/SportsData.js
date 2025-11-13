@@ -136,7 +136,7 @@ export const sportsData = [
   {
     id: "football",
     name: "Futbol",
-    image: "/football.webp",
+    image: "/football.jpg",
     founded: "Futbolning zamonaviy shakli 1863-yilda Angliyada Futbol Assotsiatsiyasi tashkil topgach rasmiylashtirilgan. Biroq to‘p bilan o‘ynaladigan o‘yinlar qadimiy Xitoy, Rim va Misrda ham mavjud bo‘lgan.",
     teamSize: "Har bir jamoada 11 nafar o‘yinchi bo‘ladi: 10 maydon o‘yinchisi va 1 darvozabon. Zaxira bilan birga 23 kishilik tarkib turnirlar uchun odatiy.",
     fieldSize: "Futbol maydoni odatda 105 × 68 metr bo‘ladi. Har ikki uchida darvoza, markazda esa boshlang‘ich doira joylashgan.",
@@ -207,7 +207,7 @@ export const sportsData = [
     {
       id: "waterpolo",
       name: "Suv polosi",
-      image: "/waterpolo.avif",
+      image: "/suv-polosi.jpg",
       founded:
         "Suv polosi XIX asr oxirida Buyuk Britaniyada paydo bo‘lgan. Dastlab daryolarda o‘ynalgan, keyinchalik yopiq havzalarda rasmiy qoidalar asosida o‘tkazila boshlandi. 1900-yildan boshlab Olimpiya o‘yinlarining rasmiy qismi hisoblanadi.",
       teamSize:
@@ -232,7 +232,7 @@ export const sportsData = [
     {
       id: "wrestling",
       name: "Kurash",
-      image: "/wrestling.avif",
+      image: "/kurash.jpg",
       founded:
         "Kurash insoniyat tarixidagi eng qadimiy sport turlaridan biri. Miloddan avvalgi 708-yildan Olimpiya o‘yinlarida mavjud. Turli madaniyatlarda kurash shakllari mavjud bo‘lib, yunon-rum (Greco-Roman), erkin kurash (Freestyle) va milliy kurashlar o‘ziga xos qoidalar bilan o‘tkaziladi.",
       teamSize: "Individual sport turi, 1 ga 1 musobaqa.",

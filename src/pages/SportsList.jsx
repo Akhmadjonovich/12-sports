@@ -19,10 +19,10 @@ export default function SportsList() {
               key={s.id}
               className="block bg-white rounded-2xl shadow hover:shadow-md transform hover:-translate-y-1 transition overflow-hidden"
             >
-              <div className="w-full h-40 md:h-44">
+              <div className="w-full h-40  md:h-44">
                 <img src={s.image} alt={s.name} className="w-full h-full object-cover" />
               </div>
-              <div className="p-3">
+              <div className="p-3 mb-7">
                 <h2 className="font-semibold text-lg">{s.name}</h2>
                 <p className="text-sm text-gray-500 max-h-15 mt-1">{s.founded}</p>
               </div>
