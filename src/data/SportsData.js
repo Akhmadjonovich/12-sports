@@ -41,15 +41,18 @@ export const sportsData = [
       founded: "1891-yilda Jeyms Neysmit tomonidan ixtiro qilingan.",
       teamSize: "Har jamoada 5 o‘yinchi.",
       fieldSize: "28 × 15 metr standart maydon.",
-      rules:
-        "To‘pni halqaga tushirish orqali ochko olinadi.",
-      history:
-        "Basketbol AQSHda qishki sport sifatida yaratilgan.",
-      facts:
-        "NBA — basketbol tarixidagi eng mashhur liga.",
-      description:
-        "Basketbol jamoaviy va dinamik o‘yin bo‘lib, tez fikrlash, muvofiqlik va aniqlikni talab qiladi. U dunyo bo‘ylab eng ko‘p tomosha qilinadigan sportlardan biridir.",
-    },
+      rules: "To‘pni halqaga tushirish orqali ochko olinadi.",
+      history: "Basketbol AQSHda qishki sport sifatida yaratilgan.",
+      facts: [
+        "Basketbol to‘pi dastlab futbol to‘pi o‘rnida ishlatilgan.",
+        "Bir NBA o‘yinida o‘rtacha 100 dan ortiq hujum amalga oshiriladi.",
+        "Dunyo bo‘ylab 450 milliondan ortiq inson basketbol o‘ynaydi.",
+        "Michael Jordan basketbol tarixidagi eng mashhur sportchilardan biri hisoblanadi.",
+        "Ayollar basketboli 1976-yildan boshlab Olimpiya dasturiga kiritilgan."
+      ],
+      description: "Basketbol — nafaqat sport, balki global madaniyatga aylangan jamoaviy o‘yin. U tezkor fikrlash, jismoniy moslashuvchanlik va jamoaviy muvofiqlikni talab qiladi. O‘yinchilar har bir sekundda qaror qabul qilishlari, raqibni kuzatishlari va imkoniyatni darhol qo‘lga olishlari kerak. Basketbol — bu strategiya, texnika va hissiyot uyg‘unligi. Professional darajada u san’atga o‘xshaydi: har bir pas, dribling yoki zarba — o‘ylangan harakat. Bu o‘yin millionlab yoshlarni orzu qilishga, jamoada ishlashni o‘rganishga va o‘z chegaralarini kengaytirishga ilhomlantiradi."
+    }
+    ,
     {
       id: "volleyball",
       name: "Voleybol",
