@@ -5,7 +5,7 @@ import { sportsData } from "../data/SportsData";
 
 export default function SportsList() {
   return (
-    <div className="min-h-screen bg-gray-50 p-6 md:p-12">
+    <div className="min-h-screen bg-gray-50 p-6 md:p-12 max-sm:p-3">
       <header className="max-w-6xl mx-auto mb-8">
         <h1 className="text-3xl md:text-4xl font-extrabold text-center">12 ta sport turi</h1>
         <p className="text-center mt-2 text-gray-600">Kartaga bosib, har bir sport haqida batafsil ma'mumot olishingiz mumkin.</p>

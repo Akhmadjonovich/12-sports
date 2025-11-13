@@ -117,7 +117,7 @@ export const sportsData = [
   {
     id: "fieldhockey",
     name: "Xokkey (maydon xokkeyi)",
-    image: "/fieldhockey.jpg",
+    image: "/xokkey.jpg",
     founded: "Maydon xokkeyi qadimiy Misr va Hindistonda mavjud bo‘lgan o‘yinlardan kelib chiqqan, lekin zamonaviy shakli 19-asrda Angliyada rivojlanib, 1886-yilda rasmiy qoidalar bilan standartlashtirilgan.",
     teamSize: "Har jamoada 11 nafar o‘yinchi bo‘lib, ulardan biri darvozabon. Zaxira o‘yinchilar bilan tarkib kengayadi. O‘yinchilarning vazifalari himoya, yarim himoya va hujum liniyalariga bo‘lingan.",
     fieldSize: "Rasmiy maydon 91.4 × 55 metr, har ikki tomonda darvozalar joylashgan. Maydonda markaziy chiziq, jarima zonalari va penalti nuqtalari belgilanadi.",
@@ -133,7 +133,7 @@ export const sportsData = [
     description: "Maydon xokkeyi — bu tezlik, aniqlik va jamoaviy uyg‘unlik san’ati. Har bir o‘yinchi to‘pni nazorat qilish, aniqlik bilan pas berish va darvozaga zarba yo‘llashda yuqori texnik mahoratni namoyon etadi. O‘yinda qarorlar soniyalar ichida qabul qilinadi, shuning uchun psixologik tayyorgarlik ham muhim. Xokkey o‘yinchilari ajoyib chidamlilik, refleks va jamoaviy muloqot ko‘nikmalariga ega bo‘lishadi — bu ularni eng professional sportchilardan biriga aylantiradi."
   },
 
-  
+
   {
     id: "football",
     name: "Futbol",
