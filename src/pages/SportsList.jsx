@@ -24,7 +24,7 @@ export default function SportsList() {
               </div>
               <div className="p-3">
                 <h2 className="font-semibold text-lg">{s.name}</h2>
-                <p className="text-sm text-gray-500 mt-1">{s.founded}</p>
+                <p className="text-sm text-gray-500 max-h-15 mt-1">{s.founded}</p>
               </div>
             </Link>
           ))}

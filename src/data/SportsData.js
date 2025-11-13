@@ -1,202 +1,256 @@
 // src/data/sportsData.js
 
 export const sportsData = [
-    {
-      id: "athletics",
-      name: "Yengil atletika",
-      image: "/athletics.jpg",
-      founded:
-        "Qadimiy Yunoniston davridan boshlangan, zamonaviy shakli XIX asrda rivojlandi.",
-      teamSize: "Individual yoki jamoaviy, turlariga qarab farq qiladi.",
-      fieldSize: "400 metr trek, sakrash va uloqtirish maydonlari bilan.",
-      rules:
-        "Har bir tadbirda maqsad – eng tez yugurish, eng uzoqqa sakrash yoki uloqtirish.",
-      history:
-        "Yengil atletika qadimiy Olimpiya o‘yinlarining markaziy qismi bo‘lgan.",
-      facts:
-        "Usain Bolt 100 metrni 9.58 soniyada bosib o‘tgan — inson tarixidagi eng tez yugurish.",
-      description:
-        "Yengil atletika inson jismoniy imkoniyatlarini sinovdan o‘tkazuvchi sport turi bo‘lib, yugurish, sakrash va uloqtirish kabi turlarni o‘z ichiga oladi. Har bir sportchi tezlik, kuch va sabr bilan raqobatlashadi.",
-    },
-    {
-      id: "badminton",
-      name: "Badminton",
-      image: "/badminton.webp",
-      founded: "1873-yil Angliyada zamonaviy shaklda tashkil topgan.",
-      teamSize: "1 yoki 2 o‘yinchi (singl va juftlik).",
-      fieldSize: "13.4 × 6.1 metr (juftlik uchun).",
-      rules:
-        "Shuttlecockni raqib maydoniga tushirish orqali ochko olinadi.",
-      history:
-        "Badminton Hindistonning 'Poona' o‘yini asosida yaratilgan.",
-      facts:
-        "Shuttlecock havoda 400 km/soatgacha tezlikda uchadi — eng tez raketka sporti!",
-      description:
-        "Badminton yengil, lekin tezkor sport bo‘lib, refleks va chaqqonlikni talab qiladi. O‘yinchilar shuttlecockni havoda ushlab turish uchun tez harakatlanishadi.",
-    },
-    {
-      id: "basketball",
-      name: "Basketbol",
-      image: "/basketball.jpeg",
-      founded: "1891-yilda Jeyms Neysmit tomonidan ixtiro qilingan.",
-      teamSize: "Har jamoada 5 o‘yinchi.",
-      fieldSize: "28 × 15 metr standart maydon.",
-      rules: "To‘pni halqaga tushirish orqali ochko olinadi.",
-      history: "Basketbol AQSHda qishki sport sifatida yaratilgan.",
-      facts: [
-        "Basketbol to‘pi dastlab futbol to‘pi o‘rnida ishlatilgan.",
-        "Bir NBA o‘yinida o‘rtacha 100 dan ortiq hujum amalga oshiriladi.",
-        "Dunyo bo‘ylab 450 milliondan ortiq inson basketbol o‘ynaydi.",
-        "Michael Jordan basketbol tarixidagi eng mashhur sportchilardan biri hisoblanadi.",
-        "Ayollar basketboli 1976-yildan boshlab Olimpiya dasturiga kiritilgan."
-      ],
-      description: "Basketbol — nafaqat sport, balki global madaniyatga aylangan jamoaviy o‘yin. U tezkor fikrlash, jismoniy moslashuvchanlik va jamoaviy muvofiqlikni talab qiladi. O‘yinchilar har bir sekundda qaror qabul qilishlari, raqibni kuzatishlari va imkoniyatni darhol qo‘lga olishlari kerak. Basketbol — bu strategiya, texnika va hissiyot uyg‘unligi. Professional darajada u san’atga o‘xshaydi: har bir pas, dribling yoki zarba — o‘ylangan harakat. Bu o‘yin millionlab yoshlarni orzu qilishga, jamoada ishlashni o‘rganishga va o‘z chegaralarini kengaytirishga ilhomlantiradi."
-    }
+  {
+    id: "athletics",
+    name: "Yengil atletika",
+    image: "/athletics.jpg",
+    founded: "Yengil atletikaning asoslari qadimiy Yunoniston va boshqa qadimgi madaniyatlardan boshlanadi; zamonaviy qoidalar va struktura esa XIX asr oxiri — XX asr boshlarida shakllandi.",
+    teamSize: "Ko‘pgina yengil atletika tadbirlari individual bo‘lib, ba'zi hollarda jamoaviy (komandaviy klasifikatsiyalar yoki estafeta) formatlari mavjud. Har bir sportchining vazifasi — o‘z yo‘nalishida (sprint, uzoqlikka sakrash, uloqtirish va boshq.) eng yaxshi natijaga erishish.",
+    fieldSize: "Yarim professional va professional stadionlardagi asosiy element — 400 metrlik trek; qo‘shimcha maydonlar sakrash, uzunlik, balandlik va uloqtirish tadbirlari uchun moslashtirilgan.",
+    rules: "Har bir tur o‘zining alohida me'yorlari bo‘lib, umumiy printsip — adolat, aniqlik va xavfsizlik. Masalan, yugurish musobaqalarida start qoidalari va chiziqni buzmaslik talab etiladi; sakrashlarda urinishlar soni va texnik mezonlar hisobga olinadi; uloqtirishlarda texnik cheklovlar va o‘lchash aniqligi muhim.",
+    history: "Yengil atletika qadimiy Olimpiya marosimlaridan tortib hozirgi zamon olimpiada va jahon chempionatlarigacha uzluksiz rivojlangan. XIX asr oxirida qoidalar standartlashib, xalqaro federatsiyalar tashkil etilib, shu bilan professional musobaqalar tizimi shakllandi.",
+    facts: [
+      "Usain Bolt 100 m uchun rasmiy rekordni 9.58 s bilan o‘rnatgan — bu rekord bir necha o‘n yillar mobaynida eng yuqori standart bo‘lib qolmoqda.",
+      "Marafon masofasi (42.195 km) 1908-yilgi London Olimpiadasida standart holatini oldi — Angliya qirollik oilasining sharofati bilan marafon masofasi aniq belgilandi.",
+      "Yengil atletika bir vaqtning o‘zida sprint, chidamlilik va texnika sohalarini qamrab oladi — bir nechta turdagi sportchilar: sprinter, mid-distance, long-distance, jumper, thrower va kombinezonchi (decathlon/heptathlon).",
+      "Estafeta jamoalari nafaqat individual tezlik, balki uzatish texnikasiga ham bog‘liq — millisekund darajasidagi xatolar natijani o‘zgartirishi mumkin.",
+      "Yengil atletikada kuchli neyrofiziologik tayyorgarlik ham muhim — startga reaksiya, ritm va millisekund darajasidagi koordinatsiya g‘olibiyatga olib keladi."
+    ],
+    description: "Yengil atletika — inson jismoniy imkoniyatlarini turli o‘lchamlarda sinovdan o‘tkazuvchi sport majmuasi. Bu sport sportchidan nafaqat tezlik va kuchni, balki texnik mukammallik, ruhiy chidamlilik va strategiyani talab qiladi. Sprintlarda soniyalar uchun kurash bo‘lsa, uzoq masofalarda chidamlilik va tempni boshqarish muvaffaqiyatni belgilaydi. Sakrash va uloqtirish tadbirlari esa sportchining texnik tayyorgarligi va kuchini bir vaqtning o‘zida namoyish etadi. Treninglarda sportchilar anatomik xususiyatlari, reabilitatsiya va sport tibbiyoti asosida individual dasturlar bajaradilar — bu esa yengil atletikani nafaqat raqobat, balki ilmiy-amaliy fan sohasiga ham aylantiradi."
+  },
+
+  {
+    id: "badminton",
+    name: "Badminton",
+    image: "/badminton.webp",
+    founded: "Zamonaviy badminton qoidalari 19-asr oxiri Angliyada shakllangan; o‘yin ilk asoslarini Hindistonda 'Poona' deb atalgan mahalliy o‘yinlardan oladi.",
+    teamSize: "Badmintonda o‘yin yagona (singl) yoki juftlik (duo) rejimida o‘tkaziladi — jamoaviy formatlar ham mavjud (masalan, Uber Cup va Thomas Cup kabi jamoaviy musobaqalar).",
+    fieldSize: "Rasmiymi­y badminton korti 13.4 × 6.1 metr (juftlik uchun); singl maydoni biroz torroq bo‘ladi — bu maydon o‘yinchining harakatini hamda taktikasini belgilaydi.",
+    rules: "O‘yin 21 ochkogacha (ko‘p musobaqalarda) o‘tkaziladi; har setda 2 ochko farq kerak. Serve, net chizig‘i, shuttlecockni qabul qilish qoidalari va vaziyatlarda qayta boshlash kabi qoidalar mavjud; shuningdek, texnik qoidalar shuttlecockni qo‘l bilan ushlamaslikni talab etadi.",
+    history: "Badminton juda tez rivojlangan va 20-asr davomida xalqaro miqyosda ommalashgan. XX asr boshidan o‘yin klub va federatsiyalar orqali standartlashtirildi; 1992-yildan beri esa badminton Olimpiya o‘yinalarida rasmiy sport turi.",
+    facts: [
+      "Shuttlecock materiali va konstruktsiyasi uni havo bilan o‘ziga xos yo‘nalishda harakatlanishiga olib keladi — eng kuchli professional zarbalar paytida shuttlecockning uchish tezligi 400 km/soatga yaqinlashishi mumkin.",
+      "Badminton milliy sport sifatida Janubi-Sharqiy Osiyo mamlakatlarida (Xitoy, Indoneziya, Malayziya) juda rivojlangan va bu hududlardan ko‘plab jahon chempionlari chiqqan.",
+      "Oliy darajadagi o‘yinlarda refleks va qaror qabul qilish tezligi muhim — o‘yinchilar soniyalar ichida pozitsiyani o‘zgartirib, zarbani qayta tashkil qiladi.",
+      "Shimoliy Hindiston va Angliya oralig‘ida o‘yin sifatida shakllangan 'Poona' va 'battle racket' traditsiyalari badmintonning texnik asoslarini bergan.",
+      "Badmintonda malakali o‘yinchilar oyoq va yelka uchun murakkab interval treninglari bajaradi — bu ularning tezlik va barqarorligini oshiradi."
+    ],
+    description: "Badminton — yuqori refleks, aniqlik va strategiyani talab qiluvchi raketka sporti. Har bir zarba — pozitsiya, kuch va spin kombinatsiyasidan iborat maqsadli harakat; o‘yinchilar maydonni to‘liq o‘qiydi, imkoniyat paydo bo‘lsa hujumga o‘tadi, aks holda himoyaga fokuslanadi. Badminton o‘yinini muvaffaqiyatli o‘ynash uchun oyoq koordinatsiyasi, muzokara tezligi va raketka bilan nozik ishlash muhimdir. Shu bilan birga, o‘yinchilar psixologik jihatdan ham mustahkam bo‘lishi kerak — uzluksiz to‘lqinlarda qaror qabul qilish va xatolarni tez tiklash kerak bo‘ladi. Badminton yoshlar va kattalar uchun juda foydali — u kardiovaskulyar chidamlilik, koordinatsiya va tezlikni yaxshilaydi."
+  },
+
+  {
+    id: "basketball",
+    name: "Basketbol",
+    image: "/basketball.jpeg",
+    founded: "Basketbol 1891-yilda Jeyms Neysmit tomonidan ixtiro qilingan; dastlabki qoidalar soddalashtirilgan va tez orada butun dunyoga tarqalgan.",
+    teamSize: "Rasmiy o‘yinda har jamoada maydonda 5 nafar o‘yinchi bo‘ladi; zaxira o‘yinchilar bilan jamoa ro‘yxati kengayadi (turnirlarga qarab 12–15 kishi dan foydalaniladi).",
+    fieldSize: "Standart basketbol maydoni 28 × 15 metr atrofida bo‘lib, u halqa balandligi (3.05 m), markaziy chiziq va chempionlik belgilari bilan aniqlanadi.",
+    rules: "To‘pni halqaga tashlash orqali ochko olinadi: ichki zonadan (3 ochko), tashqi zonadan (2 ochko), penaltilardan esa 1 ochko. To‘pni qo‘l bilan olib yurish (walking/dribbling) va boshqa qoidabuzarliklar uchun jazolar mavjud. O‘yinning tezligi va fizik aloqasi yuqori, shuning uchun qoidalar xavfsizlik va adolatni ta'minlaydi.",
+    history: "Basketbol universitetlar va klub o‘yinlari orqali tezlik bilan kengaydi; XX asr o‘rtalarida profes­sional ligalar paydo bo‘ldi va nihoyat NBA sportni xalqaro sahnaga olib chiqdi. Basketbol global madaniyatga aylanib, kino, moda va musiqa bilan uyg‘unlashdi.",
+    facts: [
+      "Basketbol dastlab ichki sport sifatida yaratilgan va birinchi to‘plarni oddiy futbol to‘plari sifatida ishlatishgan.",
+      "NBA — professional basketbolning eng yuqori saviyasi bo‘lib, undagi yulduzlar butun dunyoda tanilgan madaniy ikonaga aylangan.",
+      "Ko‘plab oltin davr o‘yinchilari — Michael Jordan, Magic Johnson, Larry Bird, LeBron James — basketbol tarixida yangi standartlar o‘rnatgan.",
+      "Basketbol tez o‘sib borayotgan sport bo‘lib, ko‘plab mamlakatlarda bolalar va ijtimoiy dasturlar orqali ommalashtiriladi.",
+      "Xalqaro o‘yinlarda FIBA qoidalari va NBA qoidalari bir oz farq qiladi — bu taktika va o‘yin ritmiga ta'sir qiladi."
+    ],
+    description: "Basketbol — yuqori tempo, kreativ va strategik jamoaviy o‘yin. Maydonda har bir o‘yinchi individual mahoratni ko‘rsatib, bir vaqtning o‘zida jamoa taktikasini bajaradi: dribling, pas, skore qilish va himoya elementlari uyg‘unlashadi. Basketbolda jamoaviy intilish va individual iqtidor uyg‘unlashganda ajoyib sahnalar — buzilmas himoya, ajoyib uchirishlar va aniqlik bilan amalga oshirilgan paslar — paydo bo‘ladi. Bu sport nafaqat jismoniy, balki ijodiy muhit ham bo‘lib, o‘yinchilar uslub va xarakterlarini maydonda aks ettiradi. Shu sababli basketbol ko‘plab yoshlar uchun ijtimoiy maydon va o‘sish vositasi hisoblanadi."
+  },
+
+  {
+    id: "volleyball",
+    name: "Voleybol",
+    image: "/volleyball.jpg",
+    founded: "Voleybol 1895-yilda William G. Morgan tomonidan yaratilgan; dastlab 'mintonette' deb atalgan va keyinchalik hozirgi nomni oldi.",
+    teamSize: "Rasmiy o‘yinda har jamoada 6 nafar o‘yinchi bo‘lib, bir nechta almashtirishlar va zaxira o‘yinchilar mavjud. Plyaj voleybolida esa jamoa faqat 2 o‘yinchidan iborat.",
+    fieldSize: "Stol va tarmoq ko‘rsatkichlariga mos ravishda voleybol maydoni 18 × 9 metr; plyaj voleyboli uchun maydon ancha kichikroq.",
+    rules: "O‘yin bir nechta setlardan iborat bo‘lib, ko‘p turnirlarda 3-setlik yoki 5-setlik format qo‘llanadi. Har set ma'lum ochko chegarasiga (masalan, 25 ochko) yetganda yakunlanadi. Har jamoa maksimal 3 ta tegish bilan to‘pni qaytarishi mumkin, va o‘yin davomida servis, blok va qabul texnikalari muhim rol o‘ynaydi.",
+    history: "Voleybol yaratilgach ko‘p tez ommalashdi; 1964-yildan beri Olimpiya o‘yinlarida muntazam ishtirok etadi. Plyaj voleyboli esa yozgi variant sifatida 1996-yildan beri Olimpiya o‘yinlariga kiritilgan.",
+    facts: [
+      "Voleybolning plyaj varianti ayniqsa yozgi hamjamiyatlarda ommalashgan va turli mamlakatlarda mashhur sayyohlik tadbirlari bilan bog‘langan.",
+      "Blok va smash (zarba) texnikalari voleybolda tezlik va balandlikni birlashtiradi — professional o‘yinlarda zarba balandligi va tezligi muhim ko‘rsatkichdir.",
+      "Voleybol jamoaviy muloqotni va o‘zaro bog‘lanishni kuchaytiradi — samarali o‘yin uchun yaxshi signalizatsiya va ishonch zarur.",
+      "E'tiborli jihati: tarmoqdan yuqori o‘tish va blokni to‘g‘ri vaqtida bajarish o‘yin natijasini tezda o‘zgartirishi mumkin.",
+      "Voleybol o‘yinchilari tezkor refleks va oyoq koordinatsiyasini rivojlantirish uchun maxsus mashg‘ulotlarni bajaradi."
+    ],
+    description: "Voleybol — muvofiqlik, timing va jamoaviy strategiyani talab qiluvchi dinamik o‘yin. Har bir to‘p uzatish, blok yoki smash jamoaning umumiy ishini ko‘rsatadi; muvaffaqiyatga erishish uchun o‘yinchilar bir-birini to‘liq tushunishi va harakatlarni sinxronlashtirishi kerak. Voleybolning plyaj varianti esa yanada ko‘proq shaxsiy texnika va chidamlilikni talab qilib, o‘yinning uslubini o‘zgartiradi. Umuman olganda, voleybol har tomonlama sport bo‘lib, jismoniy kuch va psixologik barqarorlikni birga rivojlantiradi."
+  },
+  {
+    id: "handball",
+    name: "Gandbol",
+    image: "/handball.jpg",
+    founded: "Gandbolning zamonaviy shakli 19-asr oxirida Germaniyada paydo bo‘lgan. Avvaliga ochiq maydonlarda 11 o‘yinchili jamoalar bilan o‘ynalgan, keyinchalik esa 20-asrda yopiq zal o‘yini sifatida rivojlanib, bugungi 7x7 formatni oldi.",
+    teamSize: "Har jamoada 7 nafar o‘yinchi bo‘ladi — 6 nafari maydonda va 1 nafari darvozabon. Bundan tashqari, bir nechta zaxira o‘yinchilar mavjud bo‘lib, ular tez-tez almashinadi. Bu sport yuqori jismoniy kuch, tezlik va jamoaviy uyg‘unlikni talab qiladi.",
+    fieldSize: "Standart gandbol maydoni 40 × 20 metr, har ikkala uchida 3 metr kenglikdagi darvoza joylashgan. Markaziy chiziq, 7 metrlik penalti chizig‘i va 6 metrlik jarima zonasi asosiy belgilardir.",
+    rules: "Ma’qsad — to‘pni raqib darvozasiga qo‘l bilan kiritish. O‘yin 2 taymdan iborat (har biri 30 daqiqa). O‘yinchi to‘pni 3 qadamdan ortiq olib yurmasligi kerak, 3 soniya ichida pas berish yoki zarba berishi lozim. Himoyada kuchli aloqa taqiqlanadi, lekin pozitsion bloklarga ruxsat beriladi.",
+    history: "Gandbol dastlab maktab sporti sifatida boshlangan, ammo 1920-yillarda xalqaro miqyosda o‘yin sifatida rivojlandi. 1936-yilda ilk bor Olimpiya o‘yinlariga kiritilgan. 1972-yildan boshlab doimiy ravishda erkaklar, 1976-yildan boshlab ayollar jamoalari ham ishtirok etmoqda.",
+    facts: [
+      "Gandbol — qo‘l bilan o‘ynaladigan eng tezkor sportlardan biri, zarba tezligi ba’zida 130 km/soatga yetadi.",
+      "Professional o‘yinchilar bir o‘yinda 6–8 kmgacha yugurishadi.",
+      "Skandinaviya mamlakatlari (Daniya, Norvegiya, Shvetsiya) va Fransiya bu sportda yetakchi hisoblanadi.",
+      "Ayollar gandboli ham juda rivojlangan — Daniya va Norvegiya ayollar jamoalari bir necha marta Olimpiya chempioni bo‘lgan.",
+      "Gandbolda har bir hujum taxminan 30 soniya davom etadi — bu uni yuqori intensiv sportga aylantiradi."
+    ],
+    description: "Gandbol — bu tezkor harakat, aniqlik va jamoaviy strategiyaning uyg‘unligi. O‘yinchilar maydonda bir zumda qaror qabul qilishi kerak: zarba berish, pas uzatish yoki himoyaga qaytish. Bu sport jismoniy tayyorgarlik, koordinatsiya va ruhiy bardoshlikni talab qiladi. Har bir g‘alaba — jamoaning birgalikdagi mehnati va uyg‘un taktik o‘yinining natijasidir. Gandbol o‘yinchilari kuch, tezlik va fikrlashni birlashtirgan ideal sportchilar sifatida tanilgan."
+  },
+
+  {
+    id: "chess",
+    name: "Shaxmat",
+    image: "/chess.jpg",
+    founded: "Shaxmatning ildizlari milodiy VI asrda Hindistonda paydo bo‘lgan 'Chaturanga' o‘yiniga borib taqaladi. Keyinchalik u Fors orqali Arab dunyosiga, so‘ng Yevropaga tarqaldi va hozirgi qoidalarini XV asrda shakllantirdi.",
+    teamSize: "Shaxmat odatda individual o‘yin bo‘lsa-da, jamoaviy turnirlar (masalan, Shaxmat Olimpiadasi) ham mavjud. Har bir o‘yin ikki o‘yinchi o‘rtasida o‘tkaziladi — oq va qora toshlar bilan.",
+    fieldSize: "Shaxmat doskasi 8x8 katakli (64 maydon) bo‘lib, har bir o‘yinchi 16 ta figuralar bilan o‘ynaydi. Doshka har doim o‘ng past burchakda oq katak bilan joylashtiriladi.",
+    rules: "Maqsad — raqib shohini mat holatiga keltirish. Har bir figura o‘ziga xos harakatga ega: piyoda faqat oldinga yuradi, ot 'L' shaklida harakatlanadi, fil diagonal yo‘nalishda yuradi. O‘yin shax (ogohlantirish), mat (yakuniy g‘alaba), yoki durang bilan tugashi mumkin.",
+    history: "Shaxmat asrlar davomida aql, strategiya va sabr ramzi bo‘lib kelgan. XX asrda xalqaro tashkilot — FIDE tuzilgan va rasmiy jahon chempionatlari yo‘lga qo‘yilgan. Bugungi kunda onlayn shaxmatning rivoji tufayli bu o‘yin butun dunyoda milliardlab o‘yinchilarga ega.",
+    facts: [
+      "Eng uzoq shaxmat o‘yini 269 yurishdan iborat bo‘lgan (Nikolić vs Arsović, 1989).",
+      "Har bir o‘yin boshida 10^120 dan ortiq mumkin bo‘lgan kombinatsiyalar mavjud — bu koinotdagi atomlar sonidan ham ko‘p.",
+      "Magnus Carlsen 13 yoshida Grossmeyster bo‘lgan va uzoq yillar davomida dunyo chempioni bo‘lib keldi.",
+      "Shaxmat xotira, mantiqiy fikrlash va rejalashtirishni rivojlantiradi — ko‘plab tadqiqotlarda bu ilmiy isbotlangan.",
+      "Kompyuterlar shaxmat strategiyasini inqilobiy o‘zgartirdi — hozirda eng kuchli dasturlar insondan ustun o‘ynay oladi."
+    ],
+    description: "Shaxmat — bu aql, sabr, strategiya va oldindan ko‘ra bilish san’ati. Har bir yurish uzoq muddatli rejaning bir qismi bo‘lishi mumkin. O‘yinchi nafaqat raqibning niyatini tahlil qiladi, balki o‘z kuchi va zaif tomonlarini ham hisobga oladi. Shaxmatda muvaffaqiyatga erishish uchun intizom, vaqtni boshqarish va ruhiy barqarorlik zarur. Bu o‘yin inson tafakkurining eng yuksak ifodalaridan biridir — u nafaqat sport, balki intellektual madaniyatdir."
+  },
+
+  {
+    id: "fieldhockey",
+    name: "Xokkey (maydon xokkeyi)",
+    image: "/fieldhockey.jpg",
+    founded: "Maydon xokkeyi qadimiy Misr va Hindistonda mavjud bo‘lgan o‘yinlardan kelib chiqqan, lekin zamonaviy shakli 19-asrda Angliyada rivojlanib, 1886-yilda rasmiy qoidalar bilan standartlashtirilgan.",
+    teamSize: "Har jamoada 11 nafar o‘yinchi bo‘lib, ulardan biri darvozabon. Zaxira o‘yinchilar bilan tarkib kengayadi. O‘yinchilarning vazifalari himoya, yarim himoya va hujum liniyalariga bo‘lingan.",
+    fieldSize: "Rasmiy maydon 91.4 × 55 metr, har ikki tomonda darvozalar joylashgan. Maydonda markaziy chiziq, jarima zonalari va penalti nuqtalari belgilanadi.",
+    rules: "O‘yinchilar to‘pni maxsus egri tayoq (stick) bilan boshqaradilar. Maqsad — raqib darvozasiga to‘pni kiritish. O‘yin 70 daqiqa davom etadi (har biri 35 daqiqalik 2 taym). To‘pni faqat tayoqning tekis yuzasi bilan urish mumkin. Himoyachilar qo‘l yoki tana bilan to‘pni to‘smasligi kerak.",
+    history: "Xokkeyning xalqaro rivoji 20-asr boshlarida Hindiston va Pokiston jamoalari muvaffaqiyatlari bilan boshlanadi. 1928-yildan boshlab Olimpiya o‘yinlarining doimiy qismi hisoblanadi. Bugungi kunda Avstraliya, Niderlandiya, Germaniya va Argentina bu sportda yetakchilar.",
+    facts: [
+      "Xokkeydagi to‘p 160 km/soat tezlikda harakatlana oladi.",
+      "Hindiston erkaklar jamoasi tarixdagi eng muvaffaqiyatli — 8 ta Olimpiya oltin medali bilan.",
+      "Xokkey — yuqori koordinatsiya, tezlik va chidamlilikni talab qiluvchi sport turi.",
+      "Tayoqning materiali (ko‘pincha karbon va aramid) o‘yin texnikasiga sezilarli ta’sir qiladi.",
+      "Xokkeyda video-assistent (VAR) tizimi so‘nggi yillarda keng joriy etilgan."
+    ],
+    description: "Maydon xokkeyi — bu tezlik, aniqlik va jamoaviy uyg‘unlik san’ati. Har bir o‘yinchi to‘pni nazorat qilish, aniqlik bilan pas berish va darvozaga zarba yo‘llashda yuqori texnik mahoratni namoyon etadi. O‘yinda qarorlar soniyalar ichida qabul qilinadi, shuning uchun psixologik tayyorgarlik ham muhim. Xokkey o‘yinchilari ajoyib chidamlilik, refleks va jamoaviy muloqot ko‘nikmalariga ega bo‘lishadi — bu ularni eng professional sportchilardan biriga aylantiradi."
+  },
+
+  {
+    id: "football",
+    name: "Futbol",
+    image: "/football.webp",
+    founded: "Futbolning zamonaviy shakli 1863-yilda Angliyada Futbol Assotsiatsiyasi tashkil topgach rasmiylashtirilgan. Biroq to‘p bilan o‘ynaladigan o‘yinlar qadimiy Xitoy, Rim va Misrda ham mavjud bo‘lgan.",
+    teamSize: "Har bir jamoada 11 nafar o‘yinchi bo‘ladi: 10 maydon o‘yinchisi va 1 darvozabon. Zaxira bilan birga 23 kishilik tarkib turnirlar uchun odatiy.",
+    fieldSize: "Futbol maydoni odatda 105 × 68 metr bo‘ladi. Har ikki uchida darvoza, markazda esa boshlang‘ich doira joylashgan.",
+    rules: "O‘yin 90 daqiqa davom etadi (2 × 45). To‘pni qo‘l bilan faqat darvozabon o‘z jarima maydoni ichida ushlashi mumkin. O‘yin ofsayd, penalti, burchak zarbalari va erkin zarbalar kabi qo‘shimcha qoidalar asosida boshqariladi.",
+    history: "Futbol qadimiy o‘yinlardan kelib chiqqan, lekin 19-asrda Angliyada yagona qoidalar bilan birlashtirildi. 1904-yilda FIFA tashkil topdi, bu esa xalqaro o‘yinlarni muvofiqlashtirdi. Bugungi kunda futbol eng ommabop sport bo‘lib, 200 dan ortiq mamlakatda o‘ynaladi.",
+    facts: [
+      "Dunyo bo‘yicha 4 milliarddan ortiq odam futbolni tomosha qiladi yoki o‘ynaydi.",
+      "FIFA Jahon Chempionati eng ko‘p tomosha qilinadigan sport tadbiri.",
+      "Kriştianu Ronaldu 1200 dan ortiq rasmiy gol bilan tarixdagi eng ko‘p gol urgan futbolchi.",
+      "Braziliya 5 marta Jahon Chempioni bo‘lgan — bu rekord.",
+      "Futbol 211 mamlakatda FIFA tomonidan boshqariladi.",
+      "Eng yirik stadion — 'Rungrado May Day' (114 ming tomoshabin) Shimoliy Koreyada joylashgan.",
+      "Eng qimmat transfer — Neymar (222 mln yevro, 2017-yil)."
+    ],
+    description: "Futbol — bu o‘yindan ham ko‘proq. U his, sadoqat va birlik timsoli. Maydonda o‘yinchilar jismoniy kuch, strategik fikrlash va jamoaviy uyg‘unlikni uyg‘unlashtiradilar. Har bir pas, zarba yoki himoya harakati — o‘yin san’atidir. Futbol ijtimoiy chegaralarni yo‘qotadi, turli millat va tillarni birlashtiradi. U orzular, g‘alaba ruhi va sadoqatni tarbiyalaydi. Shu bois futbol dunyoning eng sevimli sporti sifatida tan olingan."
+  }
     ,
-    {
-      id: "volleyball",
-      name: "Voleybol",
-      image: "/volleyball.jpg",
-      founded: "1895-yil William G. Morgan tomonidan yaratilgan.",
-      teamSize: "Har jamoada 6 o‘yinchi.",
-      fieldSize: "18 × 9 metr.",
-      rules:
-        "To‘pni raqib maydoniga tushirish orqali ochko olinadi.",
-      history:
-        "Voleybol basketbolga o‘xshash, ammo yumshoqroq jismoniy sport sifatida yaratilgan.",
-      facts:
-        "1964-yildan beri Olimpiya o‘yini sifatida o‘tkaziladi.",
-      
-      description: "Voleybol — jamoaviy o‘yin bo‘lib, muvofiqlik, taktika va jismoniy faollikni birlashtiradi. O‘yinchilar to‘pni tarmoqqa urib, raqib maydoniga tushirish orqali ochko to‘plashadi. Bu sport 1895-yilda yaratilgan va 1964-yildan beri Olimpiya dasturiga kiritilgan. Voleybolning plyaj varianti ham juda mashhur bo‘lib, yozgi musobaqalarda o‘ziga xos tomosha yaratadi. O‘yin tezkor harakat, aniqlik va jamoaviy ruhni talab qiladi. Voleybol jamoaviy muloqotni kuchaytiradigan, ijobiy energiya beradigan sportdir."
-    },
-    {
-      id: "handball",
-      name: "Gandbol",
-      image: "/handball.jpg",
-      founded: "1898-yil Germaniyada yaratilgan.",
-      teamSize: "Har jamoada 7 o‘yinchi (6 + darvozabon).",
-      fieldSize: "40 × 20 metr.",
-      rules:
-        "To‘pni raqib darvozasiga tashlab gol kiritish kerak.",
-      history:
-        "Gandbol futbolga o‘xshash qo‘l o‘yini sifatida rivojlangan.",
-      facts:
-        "Eng tez zarba 120 km/soatgacha yetadi.",
-      description:
-        "Gandbol tezlik, kuch va strategiyani birlashtirgan jamoaviy o‘yin. O‘yinchilar to‘pni tez paslar orqali darvozaga yetkazadilar.",
-    },
-    {
-      id: "chess",
-      name: "Shaxmat",
-      image: "/chess.jpg",
-      founded: "Taxminan milodiy VI asrda Hindistonda paydo bo‘lgan.",
-      teamSize: "1 ga 1 o‘yin.",
-      fieldSize: "8×8 taxta (64 katak).",
-      rules:
-        "Figuralarni qoidalarga ko‘ra yurdirib, raqib qirolini 'mat' qilish kerak.",
-      history:
-        "Shaxmat 'Chaturanga' o‘yinidan kelib chiqqan.",
-      facts:
-        "Shaxmat eng ko‘p strategiya talab qiladigan intellektual sportdir.",
-      description:
-        "Shaxmat aql, sabr va strategiyani sinovdan o‘tkazuvchi sportdir. Har bir yurish o‘ylangan reja asosida amalga oshiriladi.",
-    },
-    {
-      id: "fieldhockey",
-      name: "Chim ustida xokkey",
-      image: "/fieldhockey.jpg",
-      founded: "XIX asr o‘rtalarida Angliyada yaratilgan.",
-      teamSize: "Har jamoada 11 o‘yinchi.",
-      fieldSize: "91.4 × 55 metr.",
-      rules:
-        "Tayoq bilan to‘pni raqib darvozasiga urish kerak.",
-      history:
-        "Maydon xokkeyi dastlab ingliz maktablarida o‘ynalgan.",
-      facts:
-        "O‘yin davomida sportchilar 10 kmgacha yugurishadi.",
-      description:
-        "Chim ustida xokkey tezkor va texnik sport turi bo‘lib, muvofiqlik va strategiyani talab qiladi. Jamoalar tayoq yordamida gol kiritish uchun kurashadi.",
-    },
-    {
-      id: "football",
-      name: "Futbol",
-      image: "/football.webp",
-      founded: "1863-yilda Angliyada shakllangan.",
-      teamSize: "Har jamoada 11 o‘yinchi.",
-      fieldSize: "105 × 68 metr (standart).",
-      rules:
-        "To‘pni qo‘l ishlatmasdan raqib darvozasiga kiritish kerak.",
-      history:
-        "Futbol qadimiy to‘p o‘yinlaridan rivojlangan.",
-      facts:
-        "FIFA Jahon Chempionati — eng katta sport tadbiri.",
-      description:
-        "Futbol — dunyodagi eng mashhur sport turi. U jamoaviylik, texnika va strategiyani uyg‘unlashtiradi hamda milliardlab muxlislarni birlashtiradi.",
-    },
     {
       id: "rugby",
       name: "Regbi",
       image: "/rugby.jpg",
-      founded: "1823-yilda Angliyaning Rugby shahrida boshlangan.",
-      teamSize: "Har jamoada 15 o‘yinchi.",
-      fieldSize: "100 × 70 metr.",
+      founded:
+        "Regbi 1823-yilda Angliyaning Rugby shahrida boshlangan. Afsonaga ko‘ra, Uilyam Uebb Ellis futbol o‘yinida to‘pni qo‘lga olib yugurib ketgan va shu voqea regbi sportining tug‘ilishiga sabab bo‘lgan. XIX asrning o‘rtalarida sport kengayib, qoidalar standartlashtirilgan va jahon bo‘ylab tarqalgan. Rugby Union va Rugby League shakllari paydo bo‘ldi.",
+      teamSize:
+        "Har bir jamoada 15 nafar o‘yinchi bo‘ladi: 8 old chiziq o‘yinchisi (forwards) va 7 orqa chiziq o‘yinchisi (backs). Bundan tashqari zaxira o‘yinchilar mavjud bo‘lib, ular tez-tez maydonga kirib turadi. Har bir pozitsiya o‘ziga xos vazifalarni bajaradi — kuchli va tezkor harakat talab qilinadi.",
+      fieldSize:
+        "Regbi maydoni odatda 100 × 70 metr bo‘lib, maydonning ikki uchida 3 metr kenglikdagi darvoza ustunlari joylashgan. Markaziy chiziq, penalti chizig‘i va try hududi o‘yin strategiyasida muhim hisoblanadi.",
       rules:
-        "To‘pni qo‘l bilan orqaga pas berish va try kiritish kerak.",
+        "O‘yin to‘pni qo‘l bilan faqat orqaga pas berish va oldinga yugurib yetkazish orqali amalga oshiriladi. Maqsad — raqibning try hududiga to‘pni tekkizish. Try 5 ochko beradi, zarbalar 2 yoki 3 ochko. Kontakt sport bo‘lgani sababli to‘qnashuvlar va bloklar qoidalar bilan tartibga solinadi. O‘yin 2 × 40 daqiqa taymlardan iborat.",
       history:
-        "Regbi futbolning o‘zgarishidan kelib chiqqan sport turi.",
-      facts:
-        "Regbi o‘yinchilari o‘yinda 7–8 km yuguradi.",
+        "Regbi dastlab maktab sporti sifatida boshlangan, keyinchalik professional sportga aylangan. XIX asrda Angliyada regbi bir necha turga bo‘lindi: Rugby Union va Rugby League. Bugungi kunda regbi butun dunyoda mashhur bo‘lib, Jahon Kubogi (Rugby World Cup) yirik xalqaro musobaqa sifatida o‘tkaziladi. Yangi Zelandiya jamoasi 'All Blacks' bilan mashhur va ularning 'haka' raqsi regbi madaniyatining timsolidir.",
+      facts: [
+        "O‘yinchilar o‘rtacha 7–8 km masofani yuqori tezlikda bosib o‘tadi.",
+        "Regbi to‘pi oval shaklda bo‘lib, maxsus charm bilan qoplangan.",
+        "Raqib bilan to‘qnashuvlar jismoniy kuch va chidamlilikni talab qiladi.",
+        "Eng mashhur jamoalar: Yangi Zelandiya, Avstraliya, Janubiy Afrika, Angliya, Irlandiya.",
+        "Rugby World Cup har to‘rt yilda o‘tkaziladi va milliardlab tomoshabinlarni jalb qiladi.",
+      ],
       description:
-        "Regbi kuch, jasorat va jamoaviylikni talab qiladigan sportdir. O‘yinchilar taktik jihatdan aniq harakat qilib, to‘pni raqib himoyasidan o‘tkazishga harakat qilishadi.",
+        "Regbi — kuch, jasorat, tezlik va jamoaviy ruhni talab qiluvchi sport turi. Maydonda o‘yinchilar nafaqat jismoniy kuch bilan raqibni yengishadi, balki strategik qarorlar qabul qilib, birgalikda taktika tuzadilar. Har bir pas, zarba yoki to‘qnashuv — bu jamoaning birdamligi va aql-idrokini namoyish etadi. Regbi sportchilari yuqori darajada chidamlilik, tezlik, koordinatsiya va ruhiy barqarorlikka ega bo‘lishlari kerak. Shu bois regbi nafaqat jismoniy, balki ruhiy va intellektual rivojlanishga xizmat qiladigan sport hisoblanadi.",
     },
+  
     {
       id: "tabletennis",
       name: "Stol tennisi",
       image: "/tabletennis.avif",
-      founded: "1880-yillar, Angliya.",
-      teamSize: "1 yoki 2 o‘yinchi.",
-      fieldSize: "Stol: 2.74 × 1.525 metr.",
+      founded:
+        "Stol tennisi XIX asr oxirida Angliyada aristokratlar orasida 'ping-pong' nomi bilan paydo bo‘lgan. 1926-yilda Xalqaro Stol Tennisi Federatsiyasi (ITTF) tashkil topgan va standart qoidalar belgilangan. 1988-yildan beri Olimpiya o‘yinlari dasturiga kiritilgan.",
+      teamSize:
+        "Odatda 1 ga 1 (singl) yoki 2 ga 2 (juftlik) tarzida o‘ynaladi. Jamoaviy turnirlar ham mavjud bo‘lib, unda 3–5 o‘yinchidan iborat jamoalar raqobatlashadi.",
+      fieldSize:
+        "Stol 2.74 metr uzunlikda va 1.525 metr kenglikda. Net maydonni ikkiga ajratadi. To‘p 40 mm diametrda, 2.7 gramm og‘irlikda, plastik yoki celluloid materialdan tayyorlanadi.",
       rules:
-        "11 ochkogacha o‘ynaladi, har setda 2 ochko farq kerak.",
+        "Har bir set 11 ochko bilan o‘ynaladi va 2 ochko farq bilan g‘alaba qozoniladi. Har ikki ochkoda xizmat (serve) almashadi. To‘p faqat bir marta stolga tegishi kerak va raqib maydoniga o‘tishi lozim.",
       history:
-        "Dastlab 'ping-pong' deb atalgan.",
-      facts:
-        "Eng tez xizmat zarbasi 112 km/soat tezlikda qayd etilgan.",
+        "Stol tennisi global miqyosda tez tarqaldi. Xitoy, Yaponiya, Germaniya va Janubiy Koreya yetakchi davlatlar sifatida tanilgan. 20-asr o‘rtalarida Stol Tennisi Olimpiya sporti sifatida rasmiylashdi.",
+      facts: [
+        "Eng tez zarba 112 km/soat tezlikda qayd etilgan.",
+        "Xitoy sportchilari dunyoda eng ko‘p oltin medallarni qo‘lga kiritgan.",
+        "Stol tennisi refleks, koordinatsiya va tez qaror qabul qilishni rivojlantiradi.",
+        "To‘pning juda kichik og‘irligi sportchidan yuqori aniqlik talab qiladi.",
+        "Professional o‘yinchilar bir o‘yinda 1000 dan ortiq zarba amalga oshirishi mumkin.",
+      ],
       description:
-        "Stol tennisi tezkor reaktsiya va e’tibor talab qiladi. Har bir zarba aniqlik va tezlik bilan bajariladi, bu o‘yinni hayajonli qiladi.",
+        "Stol tennisi — tezkorlik, aniqlik va strategiyani birlashtirgan sport turi. Har bir zarba nafaqat jismoniy, balki miyani ham ishga soladi. O‘yinchilar to‘pning yo‘nalishini oldindan taxmin qilishi, aylanishini his qilishi va tezkor qaror qabul qilishi kerak. Stol tennisi refleks, koordinatsiya va e’tibor ko‘nikmalarini mukammal rivojlantiradi, shu bois uni dunyo bo‘ylab eng sevimli sport turlaridan biri sifatida qadrlashadi.",
     },
+  
     {
       id: "waterpolo",
       name: "Suv polosi",
       image: "/waterpolo.avif",
-      founded: "XIX asr oxiri, Britaniya.",
-      teamSize: "7 o‘yinchi (6 + darvozabon).",
-      fieldSize: "25 × 20 metr suzish havzasi.",
+      founded:
+        "Suv polosi XIX asr oxirida Buyuk Britaniyada paydo bo‘lgan. Dastlab daryolarda o‘ynalgan, keyinchalik yopiq havzalarda rasmiy qoidalar asosida o‘tkazila boshlandi. 1900-yildan boshlab Olimpiya o‘yinlarining rasmiy qismi hisoblanadi.",
+      teamSize:
+        "Har bir jamoada 7 o‘yinchi: 6 maydon o‘yinchisi va 1 darvozabon. Shu bilan birga zaxira o‘yinchilar bo‘lib, ular tez-tez maydonga kiradi.",
+      fieldSize:
+        "Suv havzasi odatda 25 × 20 metr, chuqurligi kamida 2 metr. Maydonda markaziy chiziq, gol hududi va penalti nuqtalari belgilangan.",
       rules:
-        "Suvda to‘pni raqib darvozasiga otish orqali gol olinadi.",
+        "O‘yinchilar suvda suzib to‘pni raqib darvozasiga otish orqali gol kiritadilar. O‘yin 4 bo‘limdan iborat bo‘lib, har biri 8 daqiqa davom etadi. Qoidalar qo‘l va tanani himoya qilish, suv ostidagi harakatlarni tartibga soladi.",
       history:
-        "Dastlab daryolarda o‘ynalgan, keyinchalik havzalarga o‘tkazilgan.",
-      facts:
-        "Sportchilar yuqori darajada nafas nazorati va chidamlilikka ega bo‘lishi kerak.",
+        "Suv polosi tezkor, jismoniy va strategik sport sifatida rivojlandi. Avstraliya, Vengriya, Italiya va AQSh jamoalari tarixda eng muvaffaqiyatli hisoblanadi. Bugungi kunda sportchilar yuqori darajada suzish, chidamlilik va jamoaviy taktika ko‘nikmalariga ega bo‘lishadi.",
+      facts: [
+        "Suv polosi sportchilari 3–4 soniya davomida suv ostida nafasni ushlab turishadi.",
+        "Darvozabonlar to‘pni 80 km/soat tezlikda ushlab qolishi mumkin.",
+        "O‘yin davomida o‘yinchilar bir bo‘limda 2–3 km suzishadi.",
+        "Suv polosi jismoniy chidamlilik, strategiya va tezkor qaror qabul qilishni uyg‘unlashtiradi.",
+        "O‘yinchilar suvda balansi saqlash va tezkor pas berish ko‘nikmalarini rivojlantiradi.",
+      ],
       description:
-        "Suv polosi suzish, kuch va koordinatsiyani birlashtirgan sportdir. O‘yinchilar suvda harakatlanib, raqib himoyasini yorib o‘tishadi.",
+        "Suv polosi — bu suvda kuch, chidamlilik va aqlni birlashtirgan sport turi. O‘yinchilar harakatlanish, himoya qilish va zarba berishda tez qaror qabul qilishi kerak. Har bir gol yoki pas jamoaviy uyg‘unlik va strategiyani talab qiladi. Suv polosi sportchilarda maksimal fizik va ruhiy chidamlilikni rivojlantiradi, shuningdek, tezkor fikrlash va koordinatsiya ko‘nikmalarini mukammal oshiradi. Shu bois u eng qiyin va samarali suv sportlaridan biri hisoblanadi.",
     },
+  
     {
       id: "wrestling",
       name: "Kurash",
       image: "/wrestling.avif",
       founded:
-        "Qadimdan mavjud. Olimpiya dasturida miloddan avvalgi 708-yildan beri.",
-      teamSize: "Individual.",
-      fieldSize: "Gilam doirasi (diametri ~9 metr).",
+        "Kurash insoniyat tarixidagi eng qadimiy sport turlaridan biri. Miloddan avvalgi 708-yildan Olimpiya o‘yinlarida mavjud. Turli madaniyatlarda kurash shakllari mavjud bo‘lib, yunon-rum (Greco-Roman), erkin kurash (Freestyle) va milliy kurashlar o‘ziga xos qoidalar bilan o‘tkaziladi.",
+      teamSize: "Individual sport turi, 1 ga 1 musobaqa.",
+      fieldSize: "Gilam doirasi (diametri taxminan 9 metr), markaziy chiziq bilan belgilangan.",
       rules:
-        "Raqibni gilamga tushirish yoki ball tizimi orqali ustunlikka erishish kerak.",
+        "Raqibni gilamga tushirish, ushlab turish yoki texnik ustunlik orqali g‘alaba qozoniladi. Ball tizimi, penalti va maksimal zarba qiymati qoidalar bilan belgilanadi.",
       history:
-        "Kurash inson tarixidagi eng qadimiy sportlardan biridir.",
-      facts:
-        "O‘zbekiston kurashchilari jahon arenalarida ko‘plab medallarni qo‘lga kiritgan.",
+        "Kurash qadimdan inson jismoniy tayyorgarligi va strategiyasini rivojlantirgan. 20-asrda milliy va xalqaro kurash federatsiyalari tuzilgan. O‘zbekiston milliy kurashi xalqaro maydonda tan olingan va jahon chempionatlarida ko‘plab medallar qo‘lga kiritilgan.",
+      facts: [
+        "Kurash — insonning eng qadimiy va samarali sport turlaridan biri.",
+        "O‘zbekiston kurashchilari Olimpiya va Jahon chempionatlarida ko‘plab medallarni qo‘lga kiritgan.",
+        "Raqibni to‘liq orqa bilan gilamga tushirish eng yuqori baholanuvchi harakatdir.",
+        "Kurash sporti kuch, tezlik, strategiya va muvozanatni mukammal uyg‘unlashtiradi.",
+        "Milliy kurashlar qadimiy an’analarga asoslanadi va madaniy meros sifatida qadrlanadi.",
+      ],
       description:
-        "Kurash — kuch, mahorat va taktika uyg‘unligidan iborat milliy faxrimiz. Sportchi raqibini muvozanatdan chiqarib, ustunlikni qo‘lga kiritishga harakat qiladi.",
-    },
+        "Kurash — kuch, mahorat va taktika uyg‘unligidan iborat sport turi. O‘yinchilar nafaqat jismoniy, balki ruhiy va strategik tayyorgarlikni namoyish etadilar. Har bir tashlash, ushlash va zarba puxta o‘ylangan reja asosida bajariladi. Kurash sportchilari muvozanatni saqlash, raqibning niyatini oldindan his qilish va to‘g‘ri qaror qabul qilish ko‘nikmalarini rivojlantiradilar. Bu sport insonda qat’iyat, sabr va halollikni shakllantiradi, shuningdek, milliy va xalqaro miqyosda faxrli sport turi sifatida qadrlanadi.",
+    }
+    ,
   ];
   
