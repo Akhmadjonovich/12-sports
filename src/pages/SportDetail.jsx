@@ -57,6 +57,7 @@ export default function SportDetail() {
             <p className="mt-1">{sport.facts}</p>
           </div>
 
+
           <div className="mt-6 flex gap-2">
             <Link to="/" className="px-4 py-2 bg-blue-600 text-white rounded-lg">Bosh sahifa</Link>
             <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="px-4 py-2 border rounded-lg">Yuqoriga</button>
