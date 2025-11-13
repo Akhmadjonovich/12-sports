@@ -133,6 +133,7 @@ export const sportsData = [
     description: "Maydon xokkeyi — bu tezlik, aniqlik va jamoaviy uyg‘unlik san’ati. Har bir o‘yinchi to‘pni nazorat qilish, aniqlik bilan pas berish va darvozaga zarba yo‘llashda yuqori texnik mahoratni namoyon etadi. O‘yinda qarorlar soniyalar ichida qabul qilinadi, shuning uchun psixologik tayyorgarlik ham muhim. Xokkey o‘yinchilari ajoyib chidamlilik, refleks va jamoaviy muloqot ko‘nikmalariga ega bo‘lishadi — bu ularni eng professional sportchilardan biriga aylantiradi."
   },
 
+  
   {
     id: "football",
     name: "Futbol",
