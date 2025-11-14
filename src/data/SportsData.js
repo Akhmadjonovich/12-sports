@@ -5,6 +5,7 @@ export const sportsData = [
     id: "athletics",
     name: "Yengil atletika",
     image: "/athletics.jpg",
+    video: "https://youtu.be/ijYQjvzn7lE?si=yWyL36A9n7kBtgsv",
     founded: "Yengil atletikaning asoslari qadimiy Yunoniston va boshqa qadimgi madaniyatlardan boshlanadi; zamonaviy qoidalar va struktura esa XIX asr oxiri — XX asr boshlarida shakllandi.",
     teamSize: "Ko‘pgina yengil atletika tadbirlari individual bo‘lib, ba'zi hollarda jamoaviy (komandaviy klasifikatsiyalar yoki estafeta) formatlari mavjud. Har bir sportchining vazifasi — o‘z yo‘nalishida (sprint, uzoqlikka sakrash, uloqtirish va boshq.) eng yaxshi natijaga erishish.",
     fieldSize: "Yarim professional va professional stadionlardagi asosiy element — 400 metrlik trek; qo‘shimcha maydonlar sakrash, uzunlik, balandlik va uloqtirish tadbirlari uchun moslashtirilgan.",
@@ -24,6 +25,7 @@ export const sportsData = [
     id: "badminton",
     name: "Badminton",
     image: "/badminton.webp",
+    video: "https://youtu.be/n20IQaOMLZQ?si=aZeafKMGp3dNxNjZ",
     founded: "Zamonaviy badminton qoidalari 19-asr oxiri Angliyada shakllangan; o‘yin ilk asoslarini Hindistonda 'Poona' deb atalgan mahalliy o‘yinlardan oladi.",
     teamSize: "Badmintonda o‘yin yagona (singl) yoki juftlik (duo) rejimida o‘tkaziladi — jamoaviy formatlar ham mavjud (masalan, Uber Cup va Thomas Cup kabi jamoaviy musobaqalar).",
     fieldSize: "Rasmiymi­y badminton korti 13.4 × 6.1 metr (juftlik uchun); singl maydoni biroz torroq bo‘ladi — bu maydon o‘yinchining harakatini hamda taktikasini belgilaydi.",
@@ -42,6 +44,7 @@ export const sportsData = [
   {
     id: "basketball",
     name: "Basketbol",
+    video: "https://youtu.be/3e7eb_BPI0U?si=cvXudawVPce0uIKL",
     image: "/basketball.jpeg",
     founded: "Basketbol 1891-yilda Jeyms Neysmit tomonidan ixtiro qilingan; dastlabki qoidalar soddalashtirilgan va tez orada butun dunyoga tarqalgan.",
     teamSize: "Rasmiy o‘yinda har jamoada maydonda 5 nafar o‘yinchi bo‘ladi; zaxira o‘yinchilar bilan jamoa ro‘yxati kengayadi (turnirlarga qarab 12–15 kishi dan foydalaniladi).",
@@ -61,6 +64,7 @@ export const sportsData = [
   {
     id: "volleyball",
     name: "Voleybol",
+    video: "https://youtu.be/_wYeFwzVhtI?si=j9UGuPKITovTV6Qb",
     image: "/volleyball.jpg",
     founded: "Voleybol 1895-yilda William G. Morgan tomonidan yaratilgan; dastlab 'mintonette' deb atalgan va keyinchalik hozirgi nomni oldi.",
     teamSize: "Rasmiy o‘yinda har jamoada 6 nafar o‘yinchi bo‘lib, bir nechta almashtirishlar va zaxira o‘yinchilar mavjud. Plyaj voleybolida esa jamoa faqat 2 o‘yinchidan iborat.",
@@ -80,6 +84,7 @@ export const sportsData = [
     id: "handball",
     name: "Gandbol",
     image: "/handball.jpg",
+    video: "https://youtu.be/CTzdXigQVhM?si=OBJOehB3NCVCA-Ph",
     founded: "Gandbolning zamonaviy shakli 19-asr oxirida Germaniyada paydo bo‘lgan. Avvaliga ochiq maydonlarda 11 o‘yinchili jamoalar bilan o‘ynalgan, keyinchalik esa 20-asrda yopiq zal o‘yini sifatida rivojlanib, bugungi 7x7 formatni oldi.",
     teamSize: "Har jamoada 7 nafar o‘yinchi bo‘ladi — 6 nafari maydonda va 1 nafari darvozabon. Bundan tashqari, bir nechta zaxira o‘yinchilar mavjud bo‘lib, ular tez-tez almashinadi. Bu sport yuqori jismoniy kuch, tezlik va jamoaviy uyg‘unlikni talab qiladi.",
     fieldSize: "Standart gandbol maydoni 40 × 20 metr, har ikkala uchida 3 metr kenglikdagi darvoza joylashgan. Markaziy chiziq, 7 metrlik penalti chizig‘i va 6 metrlik jarima zonasi asosiy belgilardir.",
@@ -99,6 +104,7 @@ export const sportsData = [
     id: "chess",
     name: "Shaxmat",
     image: "/chess.jpg",
+    video: "https://youtu.be/YH4ikaYPFD0?si=uFHFDnv-iJDT9scD",
     founded: "Shaxmatning ildizlari milodiy VI asrda Hindistonda paydo bo‘lgan 'Chaturanga' o‘yiniga borib taqaladi. Keyinchalik u Fors orqali Arab dunyosiga, so‘ng Yevropaga tarqaldi va hozirgi qoidalarini XV asrda shakllantirdi.",
     teamSize: "Shaxmat odatda individual o‘yin bo‘lsa-da, jamoaviy turnirlar (masalan, Shaxmat Olimpiadasi) ham mavjud. Har bir o‘yin ikki o‘yinchi o‘rtasida o‘tkaziladi — oq va qora toshlar bilan.",
     fieldSize: "Shaxmat doskasi 8x8 katakli (64 maydon) bo‘lib, har bir o‘yinchi 16 ta figuralar bilan o‘ynaydi. Doshka har doim o‘ng past burchakda oq katak bilan joylashtiriladi.",
@@ -118,6 +124,7 @@ export const sportsData = [
     id: "fieldhockey",
     name: "Xokkey (maydon xokkeyi)",
     image: "/xokkey.jpg",
+    video: "https://youtu.be/V-0wFCcJI4I?si=xCzrsR628FRz2WG4",
     founded: "Maydon xokkeyi qadimiy Misr va Hindistonda mavjud bo‘lgan o‘yinlardan kelib chiqqan, lekin zamonaviy shakli 19-asrda Angliyada rivojlanib, 1886-yilda rasmiy qoidalar bilan standartlashtirilgan.",
     teamSize: "Har jamoada 11 nafar o‘yinchi bo‘lib, ulardan biri darvozabon. Zaxira o‘yinchilar bilan tarkib kengayadi. O‘yinchilarning vazifalari himoya, yarim himoya va hujum liniyalariga bo‘lingan.",
     fieldSize: "Rasmiy maydon 91.4 × 55 metr, har ikki tomonda darvozalar joylashgan. Maydonda markaziy chiziq, jarima zonalari va penalti nuqtalari belgilanadi.",
@@ -138,6 +145,7 @@ export const sportsData = [
     id: "football",
     name: "Futbol",
     image: "/football.jpg",
+    video: "https://youtu.be/KWZNDmLwyWo?si=ykixpHL19fj2axvK",
     founded: "Futbolning zamonaviy shakli 1863-yilda Angliyada Futbol Assotsiatsiyasi tashkil topgach rasmiylashtirilgan. Biroq to‘p bilan o‘ynaladigan o‘yinlar qadimiy Xitoy, Rim va Misrda ham mavjud bo‘lgan.",
     teamSize: "Har bir jamoada 11 nafar o‘yinchi bo‘ladi: 10 maydon o‘yinchisi va 1 darvozabon. Zaxira bilan birga 23 kishilik tarkib turnirlar uchun odatiy.",
     fieldSize: "Futbol maydoni odatda 105 × 68 metr bo‘ladi. Har ikki uchida darvoza, markazda esa boshlang‘ich doira joylashgan.",
@@ -159,6 +167,7 @@ export const sportsData = [
       id: "rugby",
       name: "Regbi",
       image: "/rugby.jpg",
+      video: "https://youtu.be/3ErOGVHIybs?si=rua2luCEdBhGdd7P",
       founded:
         "Regbi 1823-yilda Angliyaning Rugby shahrida boshlangan. Afsonaga ko‘ra, Uilyam Uebb Ellis futbol o‘yinida to‘pni qo‘lga olib yugurib ketgan va shu voqea regbi sportining tug‘ilishiga sabab bo‘lgan. XIX asrning o‘rtalarida sport kengayib, qoidalar standartlashtirilgan va jahon bo‘ylab tarqalgan. Rugby Union va Rugby League shakllari paydo bo‘ldi.",
       teamSize:
@@ -184,6 +193,7 @@ export const sportsData = [
       id: "tabletennis",
       name: "Stol tennisi",
       image: "/tabletennis.avif",
+      video: "https://youtu.be/a4vCTXg9fc0?si=5LUq1iFng5210_43",
       founded:
         "Stol tennisi XIX asr oxirida Angliyada aristokratlar orasida 'ping-pong' nomi bilan paydo bo‘lgan. 1926-yilda Xalqaro Stol Tennisi Federatsiyasi (ITTF) tashkil topgan va standart qoidalar belgilangan. 1988-yildan beri Olimpiya o‘yinlari dasturiga kiritilgan.",
       teamSize:
@@ -209,6 +219,7 @@ export const sportsData = [
       id: "waterpolo",
       name: "Suv polosi",
       image: "/suv-polosi.jpg",
+      video: "https://youtu.be/yxzud7JD67Y?si=-4I6RMPpEWRP4M68",
       founded:
         "Suv polosi XIX asr oxirida Buyuk Britaniyada paydo bo‘lgan. Dastlab daryolarda o‘ynalgan, keyinchalik yopiq havzalarda rasmiy qoidalar asosida o‘tkazila boshlandi. 1900-yildan boshlab Olimpiya o‘yinlarining rasmiy qismi hisoblanadi.",
       teamSize:
@@ -225,7 +236,7 @@ export const sportsData = [
         "O‘yin davomida o‘yinchilar bir bo‘limda 2–3 km suzishadi.",
         "Suv polosi jismoniy chidamlilik, strategiya va tezkor qaror qabul qilishni uyg‘unlashtiradi.",
         "O‘yinchilar suvda balansi saqlash va tezkor pas berish ko‘nikmalarini rivojlantiradi.",
-      ],
+      ],  
       description:
         "Suv polosi — bu suvda kuch, chidamlilik va aqlni birlashtirgan sport turi. O‘yinchilar harakatlanish, himoya qilish va zarba berishda tez qaror qabul qilishi kerak. Har bir gol yoki pas jamoaviy uyg‘unlik va strategiyani talab qiladi. Suv polosi sportchilarda maksimal fizik va ruhiy chidamlilikni rivojlantiradi, shuningdek, tezkor fikrlash va koordinatsiya ko‘nikmalarini mukammal oshiradi. Shu bois u eng qiyin va samarali suv sportlaridan biri hisoblanadi.",
     },
@@ -234,6 +245,7 @@ export const sportsData = [
       id: "wrestling",
       name: "Kurash",
       image: "/kurash.jpg",
+      video: "https://youtu.be/EBpF6ZUfVgE?si=9WGS4HptxhrLUuv0",
       founded:
         "Kurash insoniyat tarixidagi eng qadimiy sport turlaridan biri. Miloddan avvalgi 708-yildan Olimpiya o‘yinlarida mavjud. Turli madaniyatlarda kurash shakllari mavjud bo‘lib, yunon-rum (Greco-Roman), erkin kurash (Freestyle) va milliy kurashlar o‘ziga xos qoidalar bilan o‘tkaziladi.",
       teamSize: "Individual sport turi, 1 ga 1 musobaqa.",

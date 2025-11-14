@@ -1,16 +1,15 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// src/App.jsx
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SportsList from "./pages/SportsList";
 import SportDetail from "./pages/SportDetail";
 
-function App() {
+export default function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<SportsList />} />
         <Route path="/sports/:id" element={<SportDetail />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
-
-export default App;
